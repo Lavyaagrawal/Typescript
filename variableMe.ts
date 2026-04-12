@@ -14,4 +14,16 @@ let isLoggedIn: boolean=false;
 // TypeScript automatically figures out the type of a variable without you explicitly writing it.
 
 
+
+// //any function
+// any means:
+// “This variable can hold any type of value, and TypeScript won’t complain.”
+
+let hero;
+
+function getHero(){
+    return true;
+}
+
+hero=getHero()
 export {}
