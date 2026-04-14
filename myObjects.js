@@ -1,7 +1,10 @@
-//type aliases
-//A type alias lets you define a type once and reuse it everywhere.
-function createUser(user) {
-    return { name: "", email: "", isActive: true };
-}
-createUser({ name: "", email: "", isActive: true });
-export {};
+"use strict";
+let myUser = {
+    _id: "1234",
+    name: "h",
+    email: "lavya@gmail.com",
+    isActive: false
+};
+myUser.email = "lucifer@gmail.com";
+//we camot be able to chne id becuse its set as readonly
+//myUser.id="123"
