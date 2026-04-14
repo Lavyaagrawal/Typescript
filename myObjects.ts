@@ -1,14 +1,17 @@
-const User ={
-    name: "hitesh",
-    email:"lavyaagrawal123@gmail.com",
-    isActive:true
-}
- function createUser(
-  { name, isPaid }: { name: string; isPaid: boolean }
-): void {}
-createUser({name: " lavya",isPaid: false})
 
-function createCourse(): { name: string; isPaid: boolean } {
-  return {name:"react",isPaid:true};
+//type aliases
+//A type alias lets you define a type once and reuse it everywhere.
+
+type User={
+  name: string;
+  email: string;
+  isActive:boolean;
+
 }
+
+function createUser(user:User):User{
+  return { name: "", email: "", isActive: true };
+
+}
+createUser({name:"",email:"",isActive:true})
 export{}
