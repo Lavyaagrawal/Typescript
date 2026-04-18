@@ -45,4 +45,4 @@ let pi:3.14=3.14;//in this we declaring that pi can only have value 3.14
 let seatAllotment:"aisle"|"middle"|"window";
 
 seatAllotment="aisle"
-seatAllotment="crew"
+//seatAllotment="crew"
